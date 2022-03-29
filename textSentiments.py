@@ -52,7 +52,7 @@ def write_output_to_CSV(biglist):
 
 def main():
 	# set the file name here
-	CSVInputFileName = 'input.csv'
+	CSVInputFileName = 'input_file.csv'
 
 	# creating an instance of the class
 	sia = SentimentIntensityAnalyzer()
