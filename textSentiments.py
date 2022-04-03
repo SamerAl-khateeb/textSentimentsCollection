@@ -16,7 +16,7 @@
 
 import nltk
 # the line below needs to run only once
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 # if you receive an error stating you can not download vader_lexicon
 # comment the nltk.download('vader_lexicon') line and uncomment the 
