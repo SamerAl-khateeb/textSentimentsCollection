@@ -16,13 +16,13 @@
 
 import nltk
 # the line below needs to run only once
-#nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 # if you receive an error stating you can not download vader_lexicon
 # comment the nltk.download('vader_lexicon') line and uncomment the 
 # block of code below
 
-
+"""
 import ssl
 try:
     _create_unverified_https_context = ssl._create_unverified_context
@@ -32,7 +32,7 @@ else:
     ssl._create_default_https_context = _create_unverified_https_context
 
 nltk.download('vader_lexicon')
-
+"""
 
 from nltk.sentiment import SentimentIntensityAnalyzer
 import csv
